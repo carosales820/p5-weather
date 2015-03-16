@@ -22,7 +22,7 @@ $("#getWeather").blur( function() {
 // REF: http://simpleweatherjs.com/
 
 $('#getZip').click(function() {
-  $('.form').hide("slow");
+  $('.info').hide("slow");
 
 
   event.preventDefault();
