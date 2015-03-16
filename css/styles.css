@@ -1,39 +1,27 @@
-/*Body Styles --------------*/
 body {
-	font-family: 'Press Start 2p', cursive;
+	font-family: font-family: 'Indie Flower', cursive;;
 }
-
-/*Header Styles ------------*/
-
-h1, h2, h3, h4, h5 {
-	font-family: 'Press Start 2p', cursive;
+h2,h3, h4, h5 {
+	font-family: font-family: 'Indie Flower', cursive;;
 	color: white;
 	margin: 0;
-	text-shadow: 3px 0px 0px rgba(0, 0, 0, 1);
 	z-index: 10;
 	position: relative;
 }
-h2 {
-	font-size: 3em;
-	text-shadow: 5px 0px 0px rgba(0, 0, 0, 1);
-}
 
-h3 {
-	font-size: 1.15em;
+h3,h2 {
+	font-size: 2.15em;
 	margin-bottom: 10px;
 }
 h4 {
 	font-size: 1em;
 	line-height: .75em;
-	margin-bottom: 8px;
+	margin-bottom: 10px;
 }
 h5 {
 	font-size: .75em;
 }
-.current {
-	margin-bottom: 5px;
-	font-size: 1em;
-}
+
 
 /*Top Styles --------------*/
 
@@ -41,13 +29,10 @@ h5 {
 	margin: 10px 0 0 10px;
 }
 
-/*Top Styles --------------*/
-
 .bottom {
-	margin: 242px 0 0 10px;
+	margin: 200px 0 0 10px;
 }
 
-/*Form Styles --------------*/
 .form {
 	margin-left: 20px;
 	margin-top: 50%;
@@ -69,60 +54,16 @@ h5 {
 	height: 40px;
 }
 
-/*Sky Background --------------*/
 .wrapper {
-	background-image: radial-gradient(circle at top left, rgb(140, 238, 255), rgb(0, 197, 255));
+	background-image: url(../img/dog-sun.jpg);
 	margin: 0 auto;
-	width: 320px;
-	height: 460px;
+	width: 500px;
+	height: 400px;
 	position: relative;
 	overflow: hidden;
 }
 
-/*Clouds --------------*/
-.clouds {
-	width: 100%;
-	position: absolute;
-	z-index: 8;
-}
-element.style {
-	position: absolute;
-}
 
-/*Environment --------------*/
-.wrapper img {
-	position: absolute;
-	bottom: 0;
-	right: 0;
-}
-.hill {
-	margin: 0 10px 40px 0;
-}
-
-.bush {
-	margin: 0 -15px 40px 0;
-	height: 60px;
-}
-
-/*Bricks --------------*/
-.ground {
-	background-image: url(../img/marioElements/brick.png);
-	height: 40px;
-	width: 100%;
-	position: absolute;
-	bottom: 0;
-}
-
-/*Night --------------*/
-.night {
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 100%;
-  width: 100%;
-  z-index: 9;
-  background-color: rgba(0, 3, 55, 0.8);
-}
 
 /*Clearfix --------------*/
 .group {
