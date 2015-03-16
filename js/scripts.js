@@ -21,7 +21,6 @@ $("#getWeather").blur( function() {
 // REF: http://foundation.zurb.com/docs/
 // REF: http://simpleweatherjs.com/
 
-// On click button, get zip, then run Simple Weather
 $('#getZip').click(function() {
   $('.form').hide("slow");
 
