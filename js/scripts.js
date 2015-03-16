@@ -9,26 +9,11 @@ $("#getWeather").blur( function() {
     $(this).val("Enter Zip");
 });
 
-//Clouds------------------------------------
-$('.clouds').jQlouds({
-    minWidth: 50,
-    maxWidth: 160,
-    wind: true,
-    maxClouds: 5,
-    minClouds: 3,
-    skyHeight: 140,
-    src: 'img/marioElements/smallCloud.png'
-});
 
 
-//Night Time---------------------------------
     var date = new Date();
     var current_hour = date.getHours();
     console.log(current_hour);
-$(".night").hide()
-  if (current_hour >= "21" || current_hour <= "6") {
-    $(".night").show();
-  };
 
 
 
